@@ -35,6 +35,11 @@
         font-family: "Abh";
         src: url("../fonts/AbhayaLibreExtraBold.ttf");
       }
+
+      @font-face {
+        font-family: "Gotham";
+        src: url("../fonts/GothamMedium.ttf");
+      }
       
       
     
@@ -44,13 +49,14 @@
         padding: 0;
         box-sizing: border-box;
         font-size: 16px;
-        font-family: "Inter";    
-        --maincontent:#6D6C67;
-        --bar:#1E1E1E;
-        --menutext:#FEFAE3;
-        --editemode:#F3B43A;
-        --previewmode:#9BE17A;
-      }
+        font-family: "Gotham";    
+        --dgreyj:#6D6C67;
+        --greyj:#D9D9D9;
+        --bluej:#2F5E7E;
+        --bluebj:#335267;
+        --ecruj:#FEFAE3;
+        --orangej:#E85909;
+       }
     
     
       
@@ -255,4 +261,14 @@
       #maincontent{
         height:100%;
         width:100%;
+      }
+
+      #logo{
+        background-image: url(icons/logo.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        width: auto;
+        margin-top:5rem;
+        
       }
